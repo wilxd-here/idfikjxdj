@@ -968,12 +968,12 @@ Vibe: developer Gen Z Indonesia, santai, spontan, agak tengil, tapi jago ngoding
                     }
                 } else {
                     console.log("Struktur JSON API berbeda:", data);
-                    appendMessage("Gue nggak bisa baca balasan dari server baru ini. Cek console log deh.", 'ai');
+                    appendMessage("Gua nggak bisa baca balasan dari server baru ini. Cek console log deh.", 'ai');
                 }
             } catch (error) {
                 typingIndicator.style.display = 'none';
                 console.error("API Fetch Error:", error);
-                appendMessage("Koneksi bermasalah atau API down.", 'ai');
+                appendMessage("Sinyal jelek, Coba Refresh Halaman", 'ai');
             } finally {
                 resetUI();
             }
